@@ -27,11 +27,15 @@
 }
 
 body {
+    height: 100vh;
     font-family: 'Outfit', sans-serif;
     font-size: 1.125rem;
     background-color: var(--Blue-950);
     padding: 1rem;
     color: var(--Blue-500);
+    display: flex;
+    place-content: center;
+    flex-direction: column;
 }
 
 img {
