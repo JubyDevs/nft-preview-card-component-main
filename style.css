@@ -146,7 +146,8 @@ hr {
     border-radius: 50%;
 }
 
-.card-profile-name {
+.card-profile-name,
+.attribution a {
     color: var(--White);
     font-weight: 400;
 }
@@ -165,10 +166,6 @@ footer {
     text-align: center; 
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 /* active and hover states */
 
 .card-img-section,
@@ -178,7 +175,8 @@ h1,
 }
 
 h1:hover,
-.card-profile-name:hover {
+.card-profile-name:hover,
+.attribution a:hover {
     color: var(--Cyan-400);
 }
 
